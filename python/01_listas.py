@@ -47,3 +47,11 @@ print( letters )
 # Podemos conocer la longitud de las listas
 letters = ['a', 'b', 'c', 'd']
 print( len(letters) )
+
+# Es Posible anidar lista
+a = ['a', 'b', 'c', 'd']
+n = [1, 2, 3]
+x = [a, n]
+print( x )
+print( x[0] )
+print( x[0][1] )
